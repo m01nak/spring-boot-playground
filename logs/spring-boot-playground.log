@@ -1,0 +1,93 @@
+2023-06-19 19:53:33 INFO  SpringBootPlaygroundApplication:51 - Starting SpringBootPlaygroundApplication using Java 17.0.7 with PID 9517 (/Users/moinak/Code/github/spring-boot-playground/target/classes started by moinak in /Users/moinak/Code/github/spring-boot-playground)
+2023-06-19 19:53:33 INFO  SpringBootPlaygroundApplication:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:53:33 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-19 19:53:33 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-06-19 19:53:34 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:53:34 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:53:34 INFO  StandardService:173 - Starting service [Tomcat]
+2023-06-19 19:53:34 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-19 19:53:34 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-19 19:53:34 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1093 ms
+2023-06-19 19:53:34 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-19 19:53:34 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1977dde8-b749-4aa7-b079-766e38ffbed7 user=SA
+2023-06-19 19:53:34 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-19 19:53:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-19 19:53:34 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-19 19:53:34 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2023-06-19 19:53:34 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:53:35 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-19 19:53:35 INFO  dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-19 19:53:35 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:53:35 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-19 19:53:35 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:53:35 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-19 19:53:36 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:53:36 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:57 - Started SpringBootPlaygroundApplication in 3.067 seconds (process running for 3.656)
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:14 - This is log number 1
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:15 - This is log number 2
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:16 - This is log number 3
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:17 - This is log number 4
+2023-06-19 19:53:36 INFO  SpringBootPlaygroundApplication:18 - This is log number 5
+2023-06-19 19:53:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:53:52 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-19 19:53:52 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2023-06-19 19:55:47 INFO  SpringBootPlaygroundApplication:51 - Starting SpringBootPlaygroundApplication using Java 17.0.7 with PID 9802 (/Users/moinak/Code/github/spring-boot-playground/target/classes started by moinak in /Users/moinak/Code/github/spring-boot-playground)
+2023-06-19 19:55:47 INFO  SpringBootPlaygroundApplication:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:55:48 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-19 19:55:48 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-06-19 19:55:48 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:55:48 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:55:48 INFO  StandardService:173 - Starting service [Tomcat]
+2023-06-19 19:55:48 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-19 19:55:48 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-19 19:55:48 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1055 ms
+2023-06-19 19:55:48 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-19 19:55:48 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a70b5229-fd76-4687-b79d-199a0960e031 user=SA
+2023-06-19 19:55:49 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-19 19:55:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-19 19:55:49 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-19 19:55:49 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2023-06-19 19:55:49 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:55:49 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-19 19:55:49 INFO  dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-19 19:55:49 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:55:49 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-19 19:55:49 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:55:49 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-19 19:55:49 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:55:49 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:55:49 INFO  SpringBootPlaygroundApplication:57 - Started SpringBootPlaygroundApplication in 2.668 seconds (process running for 3.195)
+2023-06-19 19:55:57 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:55:57 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-19 19:55:57 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2023-06-19 19:56:24 INFO  SpringBootPlaygroundApplication:51 - Starting SpringBootPlaygroundApplication using Java 17.0.7 with PID 9880 (/Users/moinak/Code/github/spring-boot-playground/target/classes started by moinak in /Users/moinak/Code/github/spring-boot-playground)
+2023-06-19 19:56:24 INFO  SpringBootPlaygroundApplication:633 - No active profile set, falling back to 1 default profile: "default"
+2023-06-19 19:56:25 INFO  RepositoryConfigurationDelegate:138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-19 19:56:25 INFO  RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-06-19 19:56:25 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2023-06-19 19:56:25 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:56:25 INFO  StandardService:173 - Starting service [Tomcat]
+2023-06-19 19:56:25 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-19 19:56:26 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2023-06-19 19:56:26 INFO  ServletWebServerApplicationContext:291 - Root WebApplicationContext: initialization completed in 1106 ms
+2023-06-19 19:56:26 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2023-06-19 19:56:26 INFO  HikariPool:565 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:89b570b2-1adc-4c25-b7d3-94429b90a8d9 user=SA
+2023-06-19 19:56:26 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2023-06-19 19:56:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-19 19:56:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-19 19:56:26 INFO  Environment:191 - HHH000406: Using bytecode reflection optimizer
+2023-06-19 19:56:26 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:56:26 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-19 19:56:26 INFO  dialect:93 - HHH035001: Using dialect: org.hibernate.dialect.H2Dialect, version: 2.1.214
+2023-06-19 19:56:26 INFO  BytecodeProviderInitiator:53 - HHH000021: Bytecode provider name : bytebuddy
+2023-06-19 19:56:26 INFO  JtaPlatformInitiator:51 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-19 19:56:26 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:56:27 WARN  JpaBaseConfiguration$JpaWebConfiguration:231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-19 19:56:27 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-19 19:56:27 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-19 19:56:27 INFO  SpringBootPlaygroundApplication:57 - Started SpringBootPlaygroundApplication in 2.737 seconds (process running for 3.893)
+2023-06-19 19:56:27 INFO  SpringBootPlaygroundApplication:14 - Hello 🙋🏻‍♂️
+2023-06-19 19:58:00 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-19 19:58:00 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2023-06-19 19:58:00 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
