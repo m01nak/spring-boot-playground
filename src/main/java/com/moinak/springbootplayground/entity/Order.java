@@ -3,18 +3,20 @@ package com.moinak.springbootplayground.entity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "ORDERS")
 public class Order {
     @Id
     @GeneratedValue
     Long id;
     String email;
-    OrderState orderState;
+    String orderState;
 
     public Order() {}
 
-    public Order(String email, OrderState orderState) {
+    public Order(String email, String orderState) {
         this.email = email;
         this.orderState = orderState;
     }
@@ -35,11 +37,11 @@ public class Order {
         this.email = email;
     }
 
-    public OrderState getOrderState() {
+    public String getOrderState() {
         return orderState;
     }
 
-    public void setOrderState(OrderState orderState) {
+    public void setOrderState(String orderState) {
         this.orderState = orderState;
     }
 
